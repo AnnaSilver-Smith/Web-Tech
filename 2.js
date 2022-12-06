@@ -1,7 +1,7 @@
-function greet() {
-  alert("Привет, " + name + "!");
+function greet(name) {
+  console.log("Привет, " + name + "!");
 }
 
-let name = prompt("Введите имя: ");
+const name = prompt("Введите имя: ");
 
-greet();
+greet(name);
