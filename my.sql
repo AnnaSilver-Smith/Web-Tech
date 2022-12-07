@@ -1,6 +1,6 @@
 -- create
 CREATE TABLE groupmates (
-  Id INTEGER PRIMARY KEY,
+  id INTEGER PRIMARY KEY,
   name TEXT NOT NULL,
   age TEXT NOT NULL,
   address TEXT NOT NULL
@@ -20,4 +20,4 @@ INSERT INTO groupmates VALUES (0010, 'Роман', 22, 'Москва');
 
 
 -- fetch 
-SELECT name FROM groupmates WHERE address = 'Москва' AND age BETWEEN 18 and 29;
+SELECT name FROM groupmates WHERE address = 'Москва' AND age BETWEEN 18 AND 29;
